@@ -1,22 +1,22 @@
-package com.egov.projectservice;
+package com.egov.paymentservice;
 
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.List;
+
 @Getter
 @Setter
-@Document(collection = "projects")
-public class Project {
+@Document(collection = "quotes")
+public class Quote{
 
     @Id
     String id;
-    String phone;
-    String name;
+    String contractorId;
+    String projectId;
     String description;
-    String location;
-    String startDate;
-    String status;
-    double budget;
+    Integer price;
+    List<String> messages;
 }

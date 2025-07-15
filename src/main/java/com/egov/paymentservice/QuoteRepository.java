@@ -1,4 +1,4 @@
-package com.egov.projectservice;
+package com.egov.paymentservice;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 

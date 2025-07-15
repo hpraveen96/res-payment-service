@@ -1,4 +1,4 @@
-package com.egov.projectservice;
+package com.egov.paymentservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,12 +6,12 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 
 @SpringBootApplication
 @ServletComponentScan
-public class ProjectServiceApplication
+public class PaymentServiceApplication
 {
 
     public static void main(String[] args)
     {
-        SpringApplication.run(ProjectServiceApplication.class, args);
+        SpringApplication.run(PaymentServiceApplication.class, args);
     }
 
 }

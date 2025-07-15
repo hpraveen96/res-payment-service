@@ -1,4 +1,4 @@
-package com.egov.projectservice;
+package com.egov.paymentservice;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
